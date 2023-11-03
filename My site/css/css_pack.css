@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.pro {
+    text-decoration: underline;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#top-container {
+    position: relative;
+    padding-top: 100px;
+    background-color: #E3FDFD;
+}
+
+#click-button {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.profile_picture {
+    border-radius: 30px;
+}
+
+.main_icon {
+    width: 10%;
+    height: 10%;
+}
+
+.middle-container {
+ 
+}
+
+.bottom-container {
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+/* homer */
+
+
+/* photo button */
+
+#photos_button {
+    position: fixed;
+    left: 0;
+    top: 70%;
+    display: block;
+    width: 85px;
+    height: 50px;
+    background-color: #71C9CE;
+    border-radius: 0 25px 25px 0;
+}
+
+#photos_button:hover {
+    position: fixed;
+    left: 0;
+    top: 70%;
+    display: block;
+    width: 85px;
+    height: 50px;
+    background-color: #CBF1F5;
+    border-radius: 0 25px 25px 0;
+}
+
+#photos_button>div {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #A6E3E9;
+    
+}
+
+#photos_button>div>img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 3px;
+}
